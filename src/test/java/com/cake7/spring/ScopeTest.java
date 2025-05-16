@@ -7,7 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertNotSame;
+import static org.junit.jupiter.api.Assertions.assertSame;
 
 @SpringBootTest
 public class ScopeTest {
@@ -16,7 +18,7 @@ public class ScopeTest {
 
     @Test
     @DisplayName("bean test")
-    public void singletonBean() {
+    public void BeanTest() {
         System.out.println("singletonBean test");
         SingletonBean bean1 = (context.getBean(SingletonBean.class));
         SingletonBean bean2 = (context.getBean(SingletonBean.class));
