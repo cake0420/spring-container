@@ -10,7 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 
-@SpringBootTest(classes = {ServiceA.class, ServiceB.class})
+@SpringBootTest
 @ContextConfiguration(classes = {ConfigB.class}) // 필요한 Configuration 클래스만 지정
 public class ConfigBComponentTest {
 
@@ -38,3 +38,4 @@ public class ConfigBComponentTest {
 
     }
 }
+

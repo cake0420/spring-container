@@ -10,7 +10,7 @@ import org.springframework.test.context.ContextConfiguration;
 
 import static org.junit.jupiter.api.Assertions.assertSame;
 
-@SpringBootTest(classes = {ServiceA.class, ServiceB.class})
+@SpringBootTest
 @ContextConfiguration(classes = {ConfigA.class}) // 필요한 Configuration 클래스만 지정
 public class ConfigAComponentTest {
 
