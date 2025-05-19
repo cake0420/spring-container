@@ -1,8 +1,8 @@
-package com.cake7.spring;
+package com.cake7.spring.configuration;
 
-import com.cake7.spring.config.ConfigA;
-import com.cake7.spring.service.ServiceA;
-import com.cake7.spring.service.ServiceB;
+import com.cake7.spring.configuration.config.ConfigA;
+import com.cake7.spring.configuration.service.ServiceA;
+import com.cake7.spring.configuration.service.ServiceB;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

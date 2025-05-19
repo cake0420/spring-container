@@ -1,7 +1,7 @@
-package com.cake7.spring.config;
+package com.cake7.spring.configuration.config;
 
-import com.cake7.spring.service.ServiceA;
-import com.cake7.spring.service.ServiceB;
+import com.cake7.spring.configuration.service.ServiceA;
+import com.cake7.spring.configuration.service.ServiceB;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

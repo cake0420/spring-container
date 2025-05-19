@@ -1,4 +1,4 @@
-package com.cake7.spring.service;
+package com.cake7.spring.configuration.service;
 
 import org.springframework.stereotype.Service;
 
