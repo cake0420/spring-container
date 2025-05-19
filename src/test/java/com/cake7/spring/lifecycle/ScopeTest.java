@@ -12,7 +12,7 @@ import org.springframework.context.ApplicationContext;
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
-@SpringBootTest
+@SpringBootTest(classes = {SingletonBean.class, PrototypeBean.class})
 public class ScopeTest {
     @Autowired
     ApplicationContext context;
