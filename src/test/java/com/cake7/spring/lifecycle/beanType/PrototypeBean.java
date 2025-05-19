@@ -1,4 +1,4 @@
-package com.cake7.spring.beanType;
+package com.cake7.spring.lifecycle.beanType;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

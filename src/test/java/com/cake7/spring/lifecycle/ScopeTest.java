@@ -1,7 +1,8 @@
-package com.cake7.spring;
+package com.cake7.spring.lifecycle;
 
-import com.cake7.spring.beanType.PrototypeBean;
-import com.cake7.spring.beanType.SingletonBean;
+
+import com.cake7.spring.lifecycle.beanType.PrototypeBean;
+import com.cake7.spring.lifecycle.beanType.SingletonBean;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
