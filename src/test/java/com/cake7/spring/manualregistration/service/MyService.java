@@ -7,6 +7,7 @@ public class MyService {
 
     public MyService(MyRepository myRepository) {
         this.repository = myRepository;
+        System.out.println("MyService 생성자 호출됨!");
     }
 
     public void printData() {
